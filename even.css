@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    height: 60px;
+    width: 100vw;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+body {
+    background-color: rgb(174, 140, 62);
+}
+
+.container {
+    height: 50vh;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+    background-color: white;
+    width: 30vw;
+    margin: 8rem;
+    position: relative;
+    left: 24rem;
+    border: 2px solid black;
+    border-radius: 23px;
+}
+
+.initial,
+.later {
+    font-size: 30px;
+}
+
+.msg {
+    position: relative;
+    top: 60px;
+    background-color: rgb(163, 97, 154);
+    font-size: 25px;
+    border-radius: 10px;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+button{
+    border-radius: 4px;
+    width: 60px;
+    height: 33px;
+}
+
+.submit{
+    position: relative;
+    top: 10px;
+}
+
+
+.even{
+    padding:5px;
+    margin-left: 20px;
+}
+
+.odd{
+    padding:5px;
+    margin-right:20px ;
+}
